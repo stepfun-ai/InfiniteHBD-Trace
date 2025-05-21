@@ -1,0 +1,117 @@
+{
+    "Software Failure": {
+        "LevelTotal": 24,
+        "Other Failures": {
+            "ClassTotal": 12,
+            "Unknown Error": 12
+        },
+        "File System": {
+            "ClassTotal": 3,
+            "FS: Multiple Disk FS Error": 2,
+            "FS Readonly": 1
+        },
+        "Software Tool": {
+            "ClassTotal": 7,
+            "Kubelet Date Absent": 7
+        },
+        "Operating System": {
+            "ClassTotal": 1,
+            "Kernel Panic": 1
+        },
+        "Firmware": {
+            "ClassTotal": 1,
+            "Firmware mismatch": 1
+        }
+    },
+    "Hardware Failure": {
+        "LevelTotal": 298,
+        "GPU": {
+            "ClassTotal": 158,
+            "GPU DBE(Double Bit ECC) > Threshold": 60,
+            "GPU xid Error": 11,
+            "GPU Temperature High": 2,
+            "GPU Lost": 5,
+            "GPU device unknow error": 40,
+            "GPU PCI link width low": 25,
+            "nvidia-smi Timeout": 9,
+            "GPU SBE(Single Bit ECC) > Threshold": 1,
+            "GPU P2P Bandwidth Low": 3,
+            "Silent Data Corruption": 1,
+            "GPU device not found": 1
+        },
+        "Parameter Plane Cable": {
+            "ClassTotal": 40,
+            "Link Down": 40
+        },
+        "NIC": {
+            "ClassTotal": 30,
+            "NIC Link Speed low": 10,
+            "NIC Lost": 8,
+            "NIC PCI link Width low": 1,
+            "Rnic Gid Error": 11
+        },
+        "Power Supply": {
+            "ClassTotal": 26,
+            "Power Supply Failure detected": 25,
+            "Redundancy Lost": 1
+        },
+        "Fan": {
+            "ClassTotal": 33,
+            "Speed Critical (Sensor)": 31,
+            "Redundancy Lost": 2
+        },
+        "Motherboard Battery": {
+            "ClassTotal": 1,
+            "Low": 1
+        },
+        "Other Failures": {
+            "ClassTotal": 1,
+            "Unknown Error": 1
+        },
+        "Motherboard": {
+            "ClassTotal": 4,
+            "Motherboard Failed": 4
+        },
+        "CPU": {
+            "ClassTotal": 3,
+            "Configuration Error": 1,
+            "Machine Check Exception ( Uncorrectable )": 2
+        },
+        "RAID Card": {
+            "ClassTotal": 1,
+            "Bus Correctable error": 1
+        },
+        "Riser Card": {
+            "ClassTotal": 1,
+            "RiserCard Fault": 1
+        }
+    },
+    "Other Failure": {
+        "LevelTotal": 262,
+        "Unknown Error": {
+            "ClassTotal": 144,
+            "Unknown Error": 144
+        },
+        "System Crash": {
+            "ClassTotal": 1,
+            "Server down": 1
+        },
+        "Stress Test Failure": {
+            "ClassTotal": 97,
+            "Unknown Error": 97
+        },
+        "Change": {
+            "ClassTotal": 4,
+            "Y-cables Taken offline": 3,
+            "Remote Optical Module Failure": 1
+        },
+        "Training Task Troubleshooting": {
+            "ClassTotal": 14,
+            "Suspect Machine Offline": 14
+        },
+        "Test": {
+            "ClassTotal": 2,
+            "Temporarily Offline": 2
+        }
+    }
+}
